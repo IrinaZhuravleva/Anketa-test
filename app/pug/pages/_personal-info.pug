@@ -1,0 +1,17 @@
+section.personal-info
+	a(name="personal-info").container
+		h2.personal-info__title Теперь расскажите о себе
+		form(name="newMessage" action="" method="POST")#personal-info-form
+			label.personal-info__label(data-number="1" placeholder="Сидоров Александр") Фамилия и имя
+				#nameError Введите Ваше имя и фамилию
+				input(name="name" type="text" placeholder="Сидоров Александр")#nameValue
+			
+			label.personal-info__label(name="email" value="" type="text" data-number="2" required) Электронная почта
+				#emailError Введите адрес Вашей электронной почты
+				input(name="email" placeholder="Sidorov@yandex.ru")#emailValue
+
+			label.personal-info__label(data-number="3") Телефон
+				input(name="phone" type="text" placeholder="+7 (999)-328-14-20").phone-mask
+			label.personal-info__label(name="message" type="text" data-number="4") Какой деятельностью, не связанной с текущими проектами, вы бы хотели заниматься в рабочее время?
+				textarea(placeholder="Свой проект по созданию универсальной инфраструктуры строительства")
+			button(type="submit" value="send") Отправить

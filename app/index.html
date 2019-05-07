@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+	<title>Test</title>
+	<link rel="stylesheet" href="fonts/DIN/stylesheet.css" />
+	<link rel="stylesheet" href="fonts/Gilroy/stylesheet.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700&amp;amp;subset=cyrillic-ext" rel="stylesheet" />
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<h2 class="title">Ты готов стать профессионалом?</h2>
+			<div class="subtitle">Мы ищем <span>талантов </span> и<span> саппортов</span> в команду. Решите на какую категорию вы претендуете.</div><a class="desc" href="#personal-info">Заполнить анкету</a>
+		</div>
+	</header>
+	<section class="questions">
+		<div class="questions-wrapper"><img class="questions-image" src="../app/img/bg-big.png" />
+			<div class="questions-image__background"></div>
+		</div>
+		<div class="container container--questions">
+			<div class="topics">
+				<div class="topic">
+					<div class="topic-title">Прокачиваем мир</div>
+					<div class="topic-subtitle">Вы хотите сделать мир лучше и не готовы ждать всю жизнь, чтобы начать это делать?</div>
+				</div>
+				<div class="topic">
+					<div class="topic-title">Мотивируем себя</div>
+					<div class="topic-subtitle">У вас есть собственная цель и вы не боитесь много работать, чтобы её достичь?</div>
+				</div>
+				<div class="topic">
+					<div class="topic-title">Используем лучшее</div>
+					<div class="topic-subtitle">Вы способны применять разные подходы для достижения своих целей?</div>
+				</div>
+				<div class="topic">
+					<div class="topic-title">Относимся с пониманием</div>
+					<div class="topic-subtitle">Вы не обвиняете других в свои неудачах и способны воспринимать критику?</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="experience">
+		<div class="container">
+			<div class="experience-description">
+				<h2>Мы похожи!</h2>
+				<p class="experience-text">Не следует, однако забывать, что укрепление и развитие структуры представляет собой интересный эксперимент проверки позиций, занимаемых участниками в отношении поставленных задач. Разнообразный и богатый опыт рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что укрепление и развитие структуры способствует подготовки и реализации форм развития. </p>
+				<p class="experience-text">Разнообразный и богатый опыт начало повседневной работы по формированию позиции способствует подготовки и реализации дальнейших направлений развития. Равным образом дальнейшее развитие различных форм деятельности позволяет оценить значение соответствующий условий активизации. С другой стороны постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке направлений прогрессивного развития. Разнообразный и богатый опыт укрепление и развитие структуры позволяет оценить значение дальнейших направлений развития. Повседневная практика показывает, что консультация с широким активом представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Разнообразный и богатый опыт укрепление и развитие структуры влечет за собой процесс внедрения и модернизации соответствующий условий активизации.</p>
+			</div>
+		</div>
+	</section>
+	<section class="advantages">
+		<div class="container advantages-wrapper">
+			<h2 class="advantages-title">Преимущества работы с нами</h2>
+			<div class="advantages-description">
+				<div class="advantage-card"><img class="advantage-img" src="../app/img/wallet.png" width="51.96px" height="52px" alt="wallet" />
+					<h3 class="advantage-title">Делимся оптом и навыками</h3>
+					<div class="advantage-desc">Мы обучаем коллег всему, что знаем сами. Наш опыт уникален и проверен временем, а команда постоянно совершенствует свои знания и навыки.</div>
+				</div>
+				<div class="advantage-card"><img class="advantage-img" src="../app/img/wallet.png" width="51.96px" height="52px" alt="wallet" />
+					<h3 class="advantage-title">Стабильная зарплата</h3>
+					<div class="advantage-desc">Вы без задержек получаете официальную зарплату. Также мы оплачиваем больничные и даем возможность брать оплачиваемый отпуск до 4 недель в год.</div>
+				</div>
+				<div class="advantage-card"><img class="advantage-img" src="../app/img/wallet.png" width="51.96px" height="52px" alt="wallet" />
+					<h3 class="advantage-title">Гибкий график</h3>
+					<div class="advantage-desc">Мы умеем работать с теми, кто еще не закончил получать образование. Вы можете работать неполный рабочий день, брать отгулы на время сессии и диплома.</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="personal-info"><a class="container" name="personal-info">
+			<h2 class="personal-info__title">Теперь расскажите о себе</h2>
+			<form name="newMessage" action="" method="POST" id="personal-info-form"><label class="personal-info__label" data-number="1" placeholder="Сидоров Александр">Фамилия и имя<div id="nameError">Введите Ваше имя и фамилию</div><input name="name" type="text" placeholder="Сидоров Александр" id="nameValue" /></label><label class="personal-info__label" name="email" value="" type="text" data-number="2" required="required">Электронная почта<div id="emailError">Введите адрес Вашей электронной почты</div><input name="email" placeholder="Sidorov@yandex.ru" id="emailValue" /></label><label class="personal-info__label" data-number="3">Телефон<input class="phone-mask" name="phone" type="text" placeholder="+7 (999)-328-14-20" /></label><label class="personal-info__label" name="message" type="text" data-number="4">Какой деятельностью, не связанной с текущими проектами, вы бы хотели заниматься в рабочее время?<textarea placeholder="Свой проект по созданию универсальной инфраструктуры строительства"></textarea></label><button type="submit" value="send">Отправить</button></form>
+		</a></section>
+</body>
+<footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+	<script src="../app/js/common.js"></script>
+</footer>
+
+</html>

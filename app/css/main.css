@@ -1,0 +1,552 @@
+body {
+  background-color: white;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-family: 'DIN Pro';
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+.container {
+  margin: 0 auto;
+  width: 1440px;
+  text-align: center;
+}
+header .title {
+  margin: 0 auto;
+  margin-top: 165px;
+  margin-bottom: 24px;
+}
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #4A4556;
+  margin-bottom: 50px;
+}
+.subtitle span {
+  color: #F47821;
+}
+header a {
+  display: block;
+  text-decoration: none;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #222222;
+  position: relative;
+  margin-bottom: 145px;
+}
+header a::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url("../../img/plus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -15px;
+  left: 591px;
+  cursor: pointer;
+}
+.questions {
+  position: relative;
+}
+.questions-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 1045px;
+  background-color: #F7F5FA;
+  width: 100%;
+  height: 750px;
+}
+.questions-image {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+.questions-image__background {
+  background-color: #F7F5FA;
+}
+.topics {
+  margin: 0 auto;
+  padding-top: 500px;
+  padding-bottom: 110px;
+  width: 976px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.topic {
+  font-family: 'DIN Pro', sans-serif;
+  text-align: left;
+  width: 486px;
+  min-height: 232px;
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+}
+.topic:hover {
+  transform: scale(1.05);
+  transition: ease 0.2s;
+}
+.topic-title {
+  margin-top: 50px;
+  margin-left: 60px;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #F47821;
+}
+.topic-subtitle {
+  margin-top: 12px;
+  margin-left: 60px;
+  width: 340px;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #222222;
+}
+.experience-description {
+  margin: 0 auto;
+  padding-bottom: 100px;
+  width: 773px;
+  text-align: left;
+}
+.experience-description h2 {
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+.experience-text {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #4E4D53;
+}
+section.advantages {
+  background-color: #F7F5FA;
+}
+.advantages-wrapper {
+  width: 1170px;
+}
+.advantages-title {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+.advantages-description {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 160px;
+}
+.advantage-card {
+  width: 326px;
+  text-align: left;
+}
+.advantage-title {
+  position: relative;
+  margin-bottom: 52px;
+  font-family: 'DIN Pro', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+.advantage-title::after {
+  position: absolute;
+  content: '';
+  top: 45px;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #F47821;
+}
+.advantage-desc {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #4E4D53;
+}
+.personal-info {
+  background-color: #161616;
+  color: #FFFFFF;
+}
+.personal-info__title {
+  margin: 0;
+  padding-top: 105px;
+  padding-bottom: 60px;
+  font-family: 'DIN Pro', sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 575px;
+  text-align: left;
+  padding-bottom: 120px;
+}
+label {
+  margin-bottom: 84px;
+  font-family: 'DIN Pro', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.01em;
+  position: relative;
+}
+label:after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background-color: #F7F5FA;
+}
+.personal-info__label:before {
+  position: absolute;
+  display: flex;
+  content: attr(data-number);
+  width: 62px;
+  height: 43px;
+  top: -20px;
+  left: -101px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  justify-content: center;
+  vertical-align: middle;
+  padding-top: 19px;
+  color: #F47821;
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  border-radius: 32px;
+  border-radius: 50%;
+}
+.personal-info__label:after {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+textarea,
+input {
+  display: block;
+  margin-top: 19px;
+  margin-bottom: 13px;
+  background-color: #161616;
+  outline: none;
+  border-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: -0.01em;
+  color: rgba(255, 255, 255, 0.3);
+  opacity: 0.3;
+  resize: none;
+}
+textarea {
+  width: 100%;
+}
+.personal-info button {
+  margin-top: 60px;
+  padding-top: 19px;
+  padding-bottom: 15px;
+  font-family: 'Gilroy', sans-serif;
+  color: #F47821;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 111px;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+}
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .container {
+    width: 1100px;
+  }
+  .desc::before {
+    left: 420px;
+  }
+  .questions-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 860px;
+  }
+  .topics {
+    margin: 0 auto;
+    padding-top: 300px;
+    padding-bottom: 60px;
+    width: 700px;
+  }
+  .topic {
+    width: 348px;
+  }
+  .topic-title {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .topic-subtitle {
+    margin-top: 12px;
+    margin-left: 30px;
+    width: 270px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+  .desc::before {
+    left: 320px;
+  }
+  .experience-description {
+    width: 600px;
+  }
+  .questions-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 860px;
+  }
+  .topics {
+    margin: 0 auto;
+    padding-top: 300px;
+    padding-bottom: 60px;
+    width: 700px;
+  }
+  .topic {
+    width: 348px;
+  }
+  .topic-title {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .topic-subtitle {
+    margin-top: 12px;
+    margin-left: 30px;
+    width: 270px;
+  }
+  .advantages-title {
+    padding-top: 80px;
+  }
+  .advantages-description {
+    padding-bottom: 100px;
+  }
+  .advantage-title,
+  .advantage-desc {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+/* Medium Devices, Desktops */
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+  .desc::before {
+    left: 220px;
+  }
+  .advantages-wrapper {
+    width: 628px;
+  }
+  .advantages-description {
+    flex-direction: column;
+    padding-bottom: 80px;
+  }
+  .advantage-card {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .advantage-card img {
+    margin: 0 auto;
+    display: block;
+  }
+  .topics {
+    padding-top: 235px;
+    width: 100%;
+  }
+  .topic {
+    width: 49%;
+    min-height: 200px;
+  }
+  .topic-title {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .topic-subtitle {
+    margin-left: 30px;
+    width: 82%;
+    font-size: 22px;
+  }
+  .experience-description {
+    width: 600px;
+  }
+  form {
+    width: 440px;
+  }
+}
+/**/
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 280px;
+  }
+  .desc {
+    margin-bottom: 60px;
+  }
+  .desc:before {
+    left: 0;
+  }
+  header .title {
+    margin-top: 60px;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .topics {
+    padding-top: 120px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .topic {
+    width: 100%;
+    min-height: 165px;
+  }
+  .topic-title {
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .topic-subtitle {
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 80%;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .questions-wrapper {
+    height: 900px;
+  }
+  .experience-description {
+    padding-bottom: 60px;
+    width: 100%;
+  }
+  .experience-description h2 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+  }
+  .advantages-title {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
+  }
+  .advantages-description {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .advantage-card {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  img.advantage-img {
+    margin: 0 auto;
+    display: block;
+  }
+  .personal-info__title {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    font-size: 24px;
+    line-height: 38px;
+  }
+  .personal-info__label:before {
+    top: -70px;
+    left: 112px;
+    width: 56px;
+    height: 38px;
+    padding-top: 18px;
+  }
+  form {
+    width: 280px;
+    padding-bottom: 80px;
+  }
+  form label {
+    margin-bottom: 110px;
+    text-align: center;
+  }
+  form textarea,
+  form input {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .personal-info button {
+    margin-top: 0px;
+  }
+}
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+/**/
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/
+}
+#nameError,
+#emailError {
+  display: none;
+  color: #fff;
+  font-family: 'DIN Pro', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 5px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  background-color: #F47821;
+}
